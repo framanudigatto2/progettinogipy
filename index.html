@@ -222,7 +222,7 @@
     </style>
     <script>
         window.onload = () => {
-  fetch("./prodotti.json").then((res) => { res.json() })
+  fetch("./prodotti.json").then((res) => { return res.json() })
     .then((json) => {
 
 
